@@ -4,7 +4,7 @@
 
 RefNews-Bot serves as the operational backbone of *Reference News*, your go-to platform for accessing crucial global emergency news, the latest in AI and technology trends, and financial and investment information. Embracing advanced generative AI technology, *Reference News* gathers, refines, and broadcasts information, aiming to present news events in the most straightforward and comprehensible way. By offering an alternative to the convoluted mix of imagery, text, and video streams on social networks, *Reference News* seeks to dismantle the information silos frequently constructed by recommendation algorithms.
 
-*参考消息*是您获取全球紧急新闻、AI 等科技动态和金融投资信息的首选平台。而*参考消息（机器人）*则是负责运营这一平台的机器人。*参考消息*运用先进的生成式 AI 技术采集、整理和发布信息，力求以最简明易懂的方式呈现新闻事件，避免社交网络上复杂的图文视频流，打破推荐算法形成的信息茧房。
+*参考消息*是您获取全球紧急新闻、AI 等科技动态和金融投资信息的首选平台。而 *参考消息（机器人）* 则是负责运营这一平台的机器人。*参考消息*运用先进的生成式 AI 技术采集、整理和发布信息，力求以最简明易懂的方式呈现新闻事件，避免社交网络上复杂的图文视频流，打破推荐算法形成的信息茧房。
 
 The official instance is currently running on: [@tct_instant_news](https://t.me/tct_instant_news)
 
