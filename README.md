@@ -6,9 +6,9 @@ RefNews-Bot serves as the operational backbone of *Reference News*, your go-to p
 
 *参考消息*是您获取全球紧急新闻、AI 等科技动态和金融投资信息的首选平台。而 *参考消息（机器人）* 则是负责运营这一平台的机器人。*参考消息*运用先进的生成式 AI 技术采集、整理和发布信息，力求以最简明易懂的方式呈现新闻事件，避免社交网络上复杂的图文视频流，打破推荐算法形成的信息茧房。
 
-The official instance is currently running on: [@tct_instant_news](https://t.me/tct_instant_news)
+The official instance is currently running on: [@tct_refnews](https://t.me/tct_refnews)
 
-目前官方实例运行在：[@tct_instant_news](https://t.me/tct_instant_news)
+目前官方实例运行在：[@tct_refnews](https://t.me/tct_refnews)
 
 ## Features
 
