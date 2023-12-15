@@ -32,7 +32,7 @@ async def get_top_headlines():
 
 
 async def get_openai_response_of_extracting_news():
-    chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-3.5-turbo-16k')
+    chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-3.5-turbo-1106')
 
     #
     top_headlines, text_news_titles_top_headlines = await get_top_headlines()
@@ -78,7 +78,7 @@ async def summarize_news_in_chinese(news_data):
                 article_content + """\n\nYou are a professional news editor and your task is to summarise the articles in the news page above. The articles may be written in a language such as English, but your summary is to be done in Chinese (Simplified). Your return result should only contain the news headlines and summary content in the format below:\n<CHINESE TITLE>\n<SUMMARY>\nPlease do not output any other content."""
         )
 
-        chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-4-1106-preview')
+        chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-3.5-turbo-1106')
 
         # Use OpenAI to read the whole page and output the summary of this page in Chinese
         res = chat(
@@ -100,7 +100,7 @@ async def generate_news_comment(news_page_content):
             news_page_content + """\n\nAs a knowledgeable, educated and professional news commentator, your task is to make a short comment on the above news, analysing the implications of the news from various perspectives and then give your final views. Please note, that you need to provide substantial comments, not empty rhetoric. You should fully utilize analytical thinking, instead of using too many exaggerated adjectives to elaborate your argument. When you list the sub-points, please use the form of bullet points to present them. Give your comment in Chinese (Simplified)."""
     )
 
-    chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-4-1106-preview')
+    chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-3.5-turbo-1106')
 
     # Use OpenAI to read the whole page and output the summary of this page in Chinese
     res = chat(
