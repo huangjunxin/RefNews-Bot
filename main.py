@@ -22,8 +22,6 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-newsapi_api_key = os.environ.get('NEWSAPI_API_KEY')
-openai_api_key = os.environ.get('OPENAI_API_KEY')
 channel_id = os.environ.get('CHANNEL_ID')
 bot_s_token = os.environ.get('BOT_S_TOKEN')
 
