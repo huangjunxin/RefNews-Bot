@@ -30,7 +30,7 @@ The official instance is currently running on: [@tct_refnews](https://t.me/tct_r
 After setting up your Python environment and obtaining the necessary API keys, you can start the bot using the command:
 
 ```bash
-python refnews_bot.py
+python main.py
 ```
 
 The bot will automatically start responding to commands and posting news updates on the designated Telegram channel based on the intervals defined in the script (default 30 minutes).

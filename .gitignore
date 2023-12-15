@@ -1,0 +1,32 @@
+# Python build
+.eggs/
+gradio.egg-info
+dist/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+__tmp/*
+*.pyi
+py.typed
+
+# Secrets
+.env
+
+# Etc
+.idea/*
+.DS_Store
+*.bak
+workspace.code-workspace
+*.h5
+
+# dev containers
+.pnpm-store/
+
+# log files
+*.out
+*.out.old
+
+# Local virtualenv for devs
+.venv*
