@@ -30,3 +30,6 @@ workspace.code-workspace
 
 # Local virtualenv for devs
 .venv*
+
+# Storage
+*.db
