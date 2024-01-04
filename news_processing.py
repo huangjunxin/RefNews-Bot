@@ -32,12 +32,12 @@ async def get_top_headlines():
 
 
 async def get_openai_response_of_extracting_news():
-    chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-3.5-turbo-1106')
+    chat = ChatOpenAI(temperature=0, openai_api_key=openai_api_key, model_name='gpt-4-1106-preview')
 
     #
     top_headlines, text_news_titles_top_headlines = await get_top_headlines()
 
-    news_prompt = "You are a professional news editor and your task is to filter news headlines above and return the news numbers that meet the requirements of a specified topic. The specified topics are: Global Emergency News, Guangzhou, Shenzhen or Hong Kong Local Information, AI and Technology Frontier, Finance and Economy. Your return result can only contain news numbers that meet the requirements of the specified topic in list-like format (e.g. [1, 3, 5, 8]). DO NOT output the original title nor anything else."
+    news_prompt = "You are a professional news editor and your task is to filter news headlines above and return the news numbers that meet the requirements of a specified topic. The specified topics are: Global Emergency News, AI and Technology Frontier, Finance and Economy. Your return result can only contain news numbers that meet the requirements of the specified topic in list-like format (e.g. [1, 3, 5, 8]). DO NOT output the original title nor anything else."
 
     res = chat(
         [
